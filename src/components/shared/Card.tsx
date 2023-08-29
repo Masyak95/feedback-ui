@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 type CardProps = {
     children: ReactNode;
-    reverse: boolean;
+    reverse?: boolean;
 };
 
 const Card: React.FC<CardProps> = ({ children , reverse}) => {
@@ -23,5 +23,10 @@ const Card: React.FC<CardProps> = ({ children , reverse}) => {
         </div>
     )
 };
+
+Card.defaultProps = {
+    reverse: false,
+}
+
 
 export default Card;

@@ -15,7 +15,7 @@ type FeedbackItemPropsType = {
 
 const FeedbackItem = ({ item,handleDelete }: FeedbackItemPropsType) => {
     return (
-        <Card reverse={false}>
+        <Card>
             <div className="num-display">{item.rating}</div>
             <button
                 onClick={()=> handleDelete(item.id)}

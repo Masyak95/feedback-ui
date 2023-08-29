@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0982003f-8044-476e-a094-1e502256e8ac" name="Changes" comment="add feedbackStats">
-      <change afterPath="$PROJECT_DIR$/src/components/FeedbackForm/FeedbackForm.tsx" afterDir="false" />
+    <list default="true" id="0982003f-8044-476e-a094-1e502256e8ac" name="Changes" comment="add FeedbackForm">
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackItem/FeedbackItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackItem/FeedbackItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Card.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <updated>1693225367839</updated>
       <workItem from="1693225369319" duration="603000" />
       <workItem from="1693226182815" duration="6080000" />
-      <workItem from="1693298483586" duration="8022000" />
+      <workItem from="1693298483586" duration="9610000" />
     </task>
     <task id="LOCAL-00001" summary="add db item, data, list">
       <created>1693233740362</created>
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693312694956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add FeedbackForm">
+      <created>1693314035923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693314035923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +144,7 @@
     <MESSAGE value="add card" />
     <MESSAGE value="delete card" />
     <MESSAGE value="add feedbackStats" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feedbackStats" />
+    <MESSAGE value="add FeedbackForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FeedbackForm" />
   </component>
 </project>

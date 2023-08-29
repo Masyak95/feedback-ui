@@ -19,9 +19,7 @@ function App() {
     return (
         <div>
             <Header text={"Feedback UI"}/>
-            <FeedbackForm
-                feedback={feedback}
-            />
+            <FeedbackForm/>
             <FeedbackStats
                 feedback={feedback}
             />

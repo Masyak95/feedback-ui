@@ -1,5 +1,6 @@
 import React, {ChangeEvent, useState} from 'react';
 import Card from "../shared/Card";
+import Button from "../shared/Button";
 
 type FeedbackFormPropsType = {
 
@@ -24,7 +25,10 @@ const FeedbackForm = ({}: FeedbackFormPropsType) => {
                         onChange={handleTextChange}
                         value={text}
                     />
-                    <button type={"submit"}>send</button>
+                    <Button
+                        type={"submit"}
+                        isDisabled={true}
+                    >send</Button>
                 </div>
             </form>
         </Card>
