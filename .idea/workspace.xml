@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0982003f-8044-476e-a094-1e502256e8ac" name="Changes" comment="add card">
+    <list default="true" id="0982003f-8044-476e-a094-1e502256e8ac" name="Changes" comment="delete card">
+      <change afterPath="$PROJECT_DIR$/src/components/FeedbackStats/FeedbackStats.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackItem/FeedbackItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackItem/FeedbackItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackList/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList/FeedbackList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +81,7 @@
       <updated>1693225367839</updated>
       <workItem from="1693225369319" duration="603000" />
       <workItem from="1693226182815" duration="6080000" />
-      <workItem from="1693298483586" duration="5442000" />
+      <workItem from="1693298483586" duration="6667000" />
     </task>
     <task id="LOCAL-00001" summary="add db item, data, list">
       <created>1693233740362</created>
@@ -100,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693309488054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete card">
+      <created>1693311293021</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693311293021</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add db item, data, list" />
     <MESSAGE value="add card" />
-    <option name="LAST_COMMIT_MESSAGE" value="add card" />
+    <MESSAGE value="delete card" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete card" />
   </component>
 </project>

@@ -17,6 +17,11 @@ ul {
     list-style: none;
 }
 
+p{
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     max-width: 768px;
     margin: auto;
@@ -124,6 +129,7 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 10px;
 }
 
 .num-display {
