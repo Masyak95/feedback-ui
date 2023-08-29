@@ -24,6 +24,7 @@ ul {
 }
 
 header {
+    padding: 0;
     height: 70px;
     width: 100%;
     display: flex;
@@ -37,7 +38,7 @@ header {
     color: #333;
     border-radius: 15px;
     padding: 40px 50px;
-    margin: 20px 0;
+    margin: 20px 10px;
     position: relative;
 }
 

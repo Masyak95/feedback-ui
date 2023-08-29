@@ -2,11 +2,12 @@ import React from 'react';
 import FeedbackItem, { FeedbackType } from "../FeedbackItem/FeedbackItem";
 
 type FeedbackListPropsType = {
-    feedback: FeedbackType[]
+    feedback: FeedbackType[],
+    handleDelete: (id: number)=>void
 }
 
 const FeedbackList = (props: FeedbackListPropsType) => {
-    const { feedback } = props;
+    const { feedback,handleDelete } = props;
 
     if (feedback.length === 0) {
         return <p>No Feedback Yet</p>;
@@ -15,7 +16,11 @@ const FeedbackList = (props: FeedbackListPropsType) => {
     return (
         <div className="feedback-list">
             {feedback.map((item) => (
-                <FeedbackItem key={item.id} item={item}/>
+                <FeedbackItem
+                    key={item.id}
+                    item={item}
+                    handleDelete={handleDelete}
+                />
             ))}
         </div>
     );
