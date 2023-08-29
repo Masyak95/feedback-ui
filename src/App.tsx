@@ -6,14 +6,12 @@ import FeedbackList from "./components/FeedbackList/FeedbackList";
 function App() {
     const [feedback, setFeedback] = useState(feedbackData)
 
-  return (
-      <div>
-          <Header text={"Feedback UI"}/>
-          <h1>
-              <FeedbackList feedback={feedback}/>
-          </h1>
-      </div>
-  );
+    return (
+        <div>
+            <Header text={"Feedback UI"}/>
+            <FeedbackList feedback={feedback}/>
+        </div>
+    );
 }
 
 export default App;

@@ -1,16 +1,22 @@
-import React, {useState} from 'react';
+import React from 'react';
+import Card from '../shared/Card';
 
-const FeedbackItem = () => {
-    const [rating, setRating]=useState<number | undefined>()
-    const [text, setText]=useState<string>("")
+export type FeedbackType = {
+    id: number;
+    rating: number;
+    text: string;
+}
 
+type FeedbackItemPropsType = {
+    item: FeedbackType;
+}
+
+const FeedbackItem = ({ item }: FeedbackItemPropsType) => {
     return (
-        <div>
-            <div className={"card"}>
-                <div className="num-display">{rating}</div>
-                <div className="text-display">{text}</div>
-            </div>
-        </div>
+        <Card reverse={false}>
+            <div className="num-display">{item.rating}</div>
+            <div className="text-display">{item.text}</div>
+        </Card>
     );
 };
 
