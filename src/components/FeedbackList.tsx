@@ -3,7 +3,7 @@ import FeedbackItem, { FeedbackType } from "./FeedbackItem";
 
 type FeedbackListPropsType = {
     feedback: FeedbackType[],
-    handleDelete: (id: number)=>void
+    handleDelete: (id: string)=>void
 }
 
 const FeedbackList = (props: FeedbackListPropsType) => {

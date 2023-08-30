@@ -3,14 +3,14 @@ import React from 'react';
 import Card from './shared/Card';
 
 export type FeedbackType = {
-    id: number;
+    id: string;
     rating: number;
     text: string;
 }
 
 type FeedbackItemPropsType = {
     item: FeedbackType;
-    handleDelete: (id: number)=>void;
+    handleDelete: (id: string)=>void;
 }
 
 const FeedbackItem = ({ item,handleDelete }: FeedbackItemPropsType) => {
