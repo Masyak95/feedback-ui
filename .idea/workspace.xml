@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0982003f-8044-476e-a094-1e502256e8ac" name="Changes" comment="add FeedbackForm">
-      <change afterPath="$PROJECT_DIR$/src/components/shared/Button.tsx" afterDir="false" />
+    <list default="true" id="0982003f-8044-476e-a094-1e502256e8ac" name="Changes" comment="add Button component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackItem/FeedbackItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackItem/FeedbackItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackForm/FeedbackForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackForm/FeedbackForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +16,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -82,7 +79,9 @@
       <updated>1693225367839</updated>
       <workItem from="1693225369319" duration="603000" />
       <workItem from="1693226182815" duration="6080000" />
-      <workItem from="1693298483586" duration="9610000" />
+      <workItem from="1693298483586" duration="10069000" />
+      <workItem from="1693315882479" duration="568000" />
+      <workItem from="1693383897977" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="add db item, data, list">
       <created>1693233740362</created>
@@ -119,7 +118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1693314035923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Button component">
+      <created>1693315637277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693315637277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Button component">
+      <created>1693315945105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693315945105</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add Button component">
+      <created>1693316136622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693316136623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +165,7 @@
     <MESSAGE value="delete card" />
     <MESSAGE value="add feedbackStats" />
     <MESSAGE value="add FeedbackForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FeedbackForm" />
+    <MESSAGE value="add Button component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Button component" />
   </component>
 </project>

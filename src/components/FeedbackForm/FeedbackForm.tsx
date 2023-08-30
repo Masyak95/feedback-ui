@@ -7,9 +7,21 @@ type FeedbackFormPropsType = {
 }
 
 const FeedbackForm = ({}: FeedbackFormPropsType) => {
-    const [text, setText] = useState('')
+    const [text, setText] = useState<string>('')
+    const [btnDisabled, setBtnDisabled] = useState<boolean>(true)
+    const [message, setMessage] = useState<string | null>('')
 
     const handleTextChange = (e: ChangeEvent<HTMLInputElement>) => {
+        if (text === ""){
+            setBtnDisabled(true)
+            setMessage(null)
+        }else if(text !== "" && text.trim().length <= 10){
+            setMessage("text must be at least 10 characters")
+            setBtnDisabled(true)
+        }else{
+            setMessage(null)
+            setBtnDisabled(false)
+        }
         setText(e.target.value)
     }
 
@@ -27,9 +39,10 @@ const FeedbackForm = ({}: FeedbackFormPropsType) => {
                     />
                     <Button
                         type={"submit"}
-                        isDisabled={true}
+                        isDisabled={btnDisabled}
                     >send</Button>
                 </div>
+                {message && <div className={'message'}>{message}</div>}
             </form>
         </Card>
     );
