@@ -1,5 +1,5 @@
 import React from 'react';
-import FeedbackItem, { FeedbackType } from "../FeedbackItem/FeedbackItem";
+import FeedbackItem, { FeedbackType } from "./FeedbackItem";
 
 type FeedbackListPropsType = {
     feedback: FeedbackType[],

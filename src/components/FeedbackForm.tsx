@@ -1,6 +1,7 @@
 import React, {ChangeEvent, useState} from 'react';
-import Card from "../shared/Card";
-import Button from "../shared/Button";
+import Card from "./shared/Card";
+import Button from "./shared/Button";
+import RatingSelect from "./RatingSelect";
 
 type FeedbackFormPropsType = {
 
@@ -8,6 +9,7 @@ type FeedbackFormPropsType = {
 
 const FeedbackForm = ({}: FeedbackFormPropsType) => {
     const [text, setText] = useState<string>('')
+    const [rating, setRating] = useState<number>(10)
     const [btnDisabled, setBtnDisabled] = useState<boolean>(true)
     const [message, setMessage] = useState<string | null>('')
 
@@ -29,7 +31,9 @@ const FeedbackForm = ({}: FeedbackFormPropsType) => {
         <Card reverse={false}>
             <form>
                 <h2>How would you rate your service with us?</h2>
-                {/*{rating select component}*/}
+                <RatingSelect
+                    select={(rating)=>setRating(rating)}
+                />
                 <div className="input-group">
                     <input
                         type="text"

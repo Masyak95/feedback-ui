@@ -1,6 +1,6 @@
 import { FaTimes } from 'react-icons/fa'
 import React from 'react';
-import Card from '../shared/Card';
+import Card from './shared/Card';
 
 export type FeedbackType = {
     id: number;

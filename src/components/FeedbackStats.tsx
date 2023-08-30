@@ -1,5 +1,5 @@
 import React from 'react';
-import {FeedbackType} from "../FeedbackItem/FeedbackItem";
+import {FeedbackType} from "./FeedbackItem";
 
 type FeedbackStatsPropsType = {
     feedback:FeedbackType[],
