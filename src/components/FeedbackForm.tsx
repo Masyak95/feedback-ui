@@ -1,16 +1,15 @@
-import React, { ChangeEvent, FormEvent, useState } from 'react';
+import React, {ChangeEvent, FormEvent, useContext, useState} from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Card from './shared/Card';
 import Button from './shared/Button';
 import RatingSelect from './RatingSelect';
 import { FeedbackType } from './FeedbackItem';
+import {FeedbackContext} from "./context/FeedbackContext";
 
+const FeedbackForm = () => {
 
-type FeedbackFormPropsType = {
-    handleAdd: (newFeedback: FeedbackType) => void;
-};
+    const { addFeedback } = useContext(FeedbackContext);
 
-const FeedbackForm = ({ handleAdd }: FeedbackFormPropsType) => {
     const [text, setText] = useState<string>('');
     const [rating, setRating] = useState<number>(10);
     const [btnDisabled, setBtnDisabled] = useState<boolean>(true);
@@ -37,7 +36,9 @@ const FeedbackForm = ({ handleAdd }: FeedbackFormPropsType) => {
                 text,
                 rating,
             };
-            handleAdd(newFeedback);
+            if (addFeedback) {
+                addFeedback(newFeedback);
+            }
             setText('');
             setRating(10);
         }
